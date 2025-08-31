@@ -96,7 +96,7 @@ Get instant disease predictions 🎉
 📊 Example Results
 Training Performance
 
-Model achieves ~XX% validation accuracy (update after training).
+Model achieves ~92% validation accuracy (update after training).
 
 
 

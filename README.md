@@ -6,25 +6,26 @@
 
 
 🌱 Plant Disease Prediction
+_A deep learning web app to classify plant diseases from leaf images_
 
-Plant Disease Prediction is a deep learning project designed to classify plant diseases from leaf images using Convolutional Neural Networks (CNNs).
-It provides a simple Streamlit web app where users can upload an image of a leaf and instantly get a prediction about the plant’s health.
+## 📌 About  
+Plant Disease Prediction is a deep learning project that classifies plant diseases from leaf images, using convolutional neural networks and a deployable web interface.  
+Early detection of plant diseases is vital in agriculture — farmers worldwide lose significant yield each year due to disease spread. With this tool, users (farmers, agronomists, researchers) can upload a leaf image and instantly obtain a diagnosis, helping mitigate losses.
 
-This project aims to assist farmers, researchers, and agricultural experts in early disease detection to improve crop yield and reduce losses.
+The model is trained on the **PlantVillage** dataset and wrapped in a **Streamlit** app for ease of use.
 
-✨ Features
 
-🧠 CNN-based model trained on the PlantVillage Dataset
+## ✨ Features
 
-📂 Supports multiple plant types and disease categories
+### ✅ User-facing
+- Upload a leaf image (JPG/PNG) via web app → get disease prediction + confidence score  
+- Visualize training history (accuracy & loss plots)
 
-📸 Image upload & classification via Streamlit
+### 🛠 Developer / Backend
+- CNN-based model trained on the **PlantVillage** dataset (38 classes)  
+- Saved model (`.h5`) + `class_indices.json` for mapping  
+- Support for retraining / extending to new classes
 
-⚡ Real-time prediction with accuracy & confidence scores
-
-📊 Training history visualization (accuracy & loss plots)
-
-💾 Model + class mapping saved for easy deployment
 
 📂 Project Structure
 Plant_disease_prediction/

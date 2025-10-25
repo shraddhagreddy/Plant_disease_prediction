@@ -7,7 +7,7 @@
 
 🌱 Plant Disease Prediction
 _A deep learning web app to classify plant diseases from leaf images_
-
+   
 ## 📌 About  
 Plant Disease Prediction is a deep learning project that classifies plant diseases from leaf images, using convolutional neural networks and a deployable web interface.  
 Early detection of plant diseases is vital in agriculture — farmers worldwide lose significant yield each year due to disease spread. With this tool, users (farmers, agronomists, researchers) can upload a leaf image and instantly obtain a diagnosis, helping mitigate losses.

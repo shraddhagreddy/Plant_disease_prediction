@@ -17,7 +17,7 @@ The model is trained on the **PlantVillage** dataset and wrapped in a **Streamli
 
 ## ✨ Features
 
-### ✅ User-facing
+### ✅ User-facing 
 - Upload a leaf image (JPG/PNG) via web app → get disease prediction + confidence score  
 - Visualize training history (accuracy & loss plots)
 
